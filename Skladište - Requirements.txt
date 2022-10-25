@@ -1,0 +1,92 @@
+- aplikacija za skladišta
+- web aplikacija
+- aplikacija za dućane - stanje svakog artikla
+- microsoft sql bazu podataka
+- .NET backend
+- React za frontend
+
+
+Filip Miličević
+Petra Bešker
+Anđela Mustapić-Jogun
+Mia Marin
+Marul Babić
+
+
+Što se razvija ?
+Ciljani klijenti ?
+Zašto bi korisnici kupili produkt ?
+
+
+
+
+Funckije aplikacije:
+
+	- authentication system(log in, add/remove account)
+	- pračenje lagera skladišta
+	- ispisivanje otpremnica/prijemnica
+	- upisivanje prijemnica/otpremnica
+	- vizualni prikaz skladišta ("crtanje skladišta u obliku kvadratića - data grid")
+	- chart sa odrađenim otpremnicama
+	- inventura
+	
+	
+
+Authentication system:
+	- Registration:
+		- Account Type
+			- Admin
+				-> ima sva prava : mijenjanje bar kodova artikala, manualno mijenjanje stanja artikla...
+			- trgovac
+				-> ima uvid u stanje artikala, sve otpremnice/prijemnice (neprocesuirane, procesuirane, pregledane, izvršene), 
+			- voditelj skladišta
+				-> ima uvid u sve kao i trgovac i kao skladištar + pravo dodijele bilo koje otpremnice/prijemnice bilo kojem skladištaru(u sekciji)
+			- skladištar
+				-> ima uvid u neprocesuirane otpremnice i u svoje (procesuirane, pregledane i izvršene)
+			- kupac(Guest) 
+				-> može pogledati popis svih artikala (i stanje na lageru)
+		- Ime
+		- Prezime
+		- Password
+		- LogIn skladište (mogućnost da sustav ima više skladišta/podjela skladišta)
+		
+		
+Lager system:
+	- bar code / Id artikla -> dvije različite stvari(BAR Code prikazujemo, Id artikla ne)
+	- Naziv artikla
+	- Vrsta
+	- Opis
+	- mjerna jedinica 
+	- količina
+	- mjesto u skladištu (regal, red, broj)
+	
+In/Out system: // needs to be renamed
+	- In/Out type (in or out) 
+	- Stanje (neprocesuirane, procesuirane, pregledane, izvršene)
+	- Lista artikala 
+		- bar code
+		- Naziv artikla
+		- Vrsta
+		- Opis
+		- mjerna jedinica (mora se podudarat sa mjernom jedinicom koja je već spremljena)
+		- količina (ne smije biti veće od trenutne količine na stanju)
+	- kreator zahtjeva i vrijeme
+	- izvršitelj zahtjeva i vrijeme
+	- provjeravatelj zahtjeva i vrijeme
+	- zatvarač zahjeva i vrijeme
+	
+Visual intepretation system:
+	- id skladišta
+	- vizualni prikaz skladišta
+		- pravokutnici koji ovisno o samom nacrtu skladišta prikazuju točno gdje je koji regal 
+	- pri odabiru artikla sustav označuje točno u skladištu gdje se ono nalazi
+	
+Chart system:
+	- sustav koji prikazuje točno kolko je koji user posla odradio
+
+Inventura:
+	- vrste inventure
+		- po proizvođaču
+		- po regalu/redu/broju
+		- po artiklu
+	- vizualni prikaz gdje je koji artikal
