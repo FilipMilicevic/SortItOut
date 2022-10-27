@@ -1,0 +1,15 @@
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\bin\Debug\net6.0\SortItOut.DataAccess.deps.json
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\bin\Debug\net6.0\SortItOut.DataAccess.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\bin\Debug\net6.0\SortItOut.DataAccess.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\bin\Debug\net6.0\SortItOut.Models.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\bin\Debug\net6.0\SortItOut.Models.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.csproj.AssemblyReference.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.AssemblyInfoInputs.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.AssemblyInfo.cs
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.csproj.CoreCompileInputs.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.csproj.CopyComplete
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\refint\SortItOut.DataAccess.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\SortItOut.DataAccess.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess\obj\Debug\net6.0\ref\SortItOut.DataAccess.dll

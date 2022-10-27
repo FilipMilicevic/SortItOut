@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SortItOut.Core/1.0.0": {
+        "dependencies": {
+          "SortItOut.DataAccess": "1.0.0",
+          "SortItOut.Models": "1.0.0"
+        },
+        "runtime": {
+          "SortItOut.Core.dll": {}
+        }
+      },
+      "SortItOut.DataAccess/1.0.0": {
+        "dependencies": {
+          "SortItOut.Models": "1.0.0"
+        },
+        "runtime": {
+          "SortItOut.DataAccess.dll": {}
+        }
+      },
+      "SortItOut.Models/1.0.0": {
+        "runtime": {
+          "SortItOut.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SortItOut.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SortItOut.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SortItOut.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

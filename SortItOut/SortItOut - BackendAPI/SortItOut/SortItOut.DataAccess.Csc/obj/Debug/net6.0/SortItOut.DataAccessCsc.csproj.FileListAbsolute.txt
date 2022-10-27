@@ -1,0 +1,17 @@
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.DataAccessCsc.deps.json
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.DataAccessCsc.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.DataAccessCsc.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.DataAccess.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.Models.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.DataAccess.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\bin\Debug\net6.0\SortItOut.Models.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.csproj.AssemblyReference.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.AssemblyInfoInputs.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.AssemblyInfo.cs
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.csproj.CoreCompileInputs.cache
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.csproj.CopyComplete
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\refint\SortItOut.DataAccessCsc.dll
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\SortItOut.DataAccessCsc.pdb
+C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.DataAccess.Csc\obj\Debug\net6.0\ref\SortItOut.DataAccessCsc.dll
