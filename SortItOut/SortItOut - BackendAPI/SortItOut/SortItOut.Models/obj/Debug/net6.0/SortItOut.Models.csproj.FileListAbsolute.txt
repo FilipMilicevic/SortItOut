@@ -10,3 +10,15 @@ C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Mod
 C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\refint\SortItOut.Models.dll
 C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.pdb
 C:\src\gitlab\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\ref\SortItOut.Models.dll
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.deps.json
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.dll
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.pdb
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.csproj.AssemblyReference.cache
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.AssemblyInfoInputs.cache
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.AssemblyInfo.cs
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.csproj.CoreCompileInputs.cache
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.dll
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\refint\SortItOut.Models.dll
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.pdb
+C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\ref\SortItOut.Models.dll

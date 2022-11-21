@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cycBijBiTUV0wMVxvbTJfWrRasnTTVtVBPVnPorOk285Ly8O/Rm2P1nJczQST7MnDUoTPiQwAozRe0CMmDrjJQ==",
+  "dgSpecHash": "1UpE36/IvUJmX8gWeT2+l4vDbxGu6NGqwBIkkfZzCcZ972Aj6OOtahhRuFLvVQO8auTkU8bNaVZ6dl9FfsG5cA==",
   "success": true,
-  "projectFilePath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Configuration\\SortItOut.Configuration.csproj",
+  "projectFilePath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Configuration\\SortItOut.Configuration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

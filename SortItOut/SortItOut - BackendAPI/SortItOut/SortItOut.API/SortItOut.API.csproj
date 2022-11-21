@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SortItOut.Core\SortItOut.Core.csproj" />
-    <ProjectReference Include="..\SortItOut.DataAccess.Csc\SortItOut.DataAccessCsc.csproj" />
+    <ProjectReference Include="..\SortItOut.DataAccess.Csc\SortItOut.DataAccess.Csc.csproj" />
   </ItemGroup>
 
 </Project>

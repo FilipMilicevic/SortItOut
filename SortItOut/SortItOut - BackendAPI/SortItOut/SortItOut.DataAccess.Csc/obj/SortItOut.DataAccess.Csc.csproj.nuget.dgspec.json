@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {}
+    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {}
   },
   "projects": {
-    "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
+    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
+        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
         "projectName": "SortItOut.DataAccess.Csc",
-        "projectPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
+        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
         "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\obj\\",
+        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
-                "projectPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
+              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
+                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
               }
             }
           }
@@ -44,13 +44,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
+            "EntityFramework": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -69,18 +73,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
+    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
+        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
         "projectName": "SortItOut.DataAccess",
-        "projectPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
+        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
         "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\obj\\",
+        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
-                "projectPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
+              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
               }
             }
           }
@@ -128,18 +132,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
         "projectName": "SortItOut.Models",
-        "projectPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
         "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\gitlab\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
+        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,7 +187,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
