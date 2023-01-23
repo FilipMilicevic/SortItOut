@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import Dashboard from "./Dashboard.js";
-
+import Lager from "./Lager.js"
+import Navbar from "./Navbar.js"
 import "./styles.css";
 
 function App() {
@@ -68,7 +69,7 @@ function Root() {
 
   // JSX code for login form
   const renderForm = (
-    <div className="form">
+    <div className="login-form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <label>Username </label>
@@ -89,20 +90,23 @@ function Root() {
 
   return (
     <div className="app">
-      <div className="login-form">
         <div className="title"></div>
         {isSubmitted ? (
           <div className="wrapper">
-            <h1>Application</h1>
-            <Routes>
-              <Route path="/dashboard" element={<Dashboard />} />
-            </Routes>
+            <div className="navbar">
+              <Navbar />
+            </div>
+            <div className="content">
+              <Routes>
+                <Route path="/" element={<Lager />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+              </Routes>
+            </div>
           </div>
         ) : (
           renderForm
         )}
       </div>
-    </div>
   );
 }
 export default App;
