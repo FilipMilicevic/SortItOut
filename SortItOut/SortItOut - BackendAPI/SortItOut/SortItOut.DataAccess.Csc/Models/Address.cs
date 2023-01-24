@@ -14,9 +14,9 @@ namespace SortItOut.DataAccess.Csc.Models
         }
 
         public int AddressId { get; set; }
-        public int PostalCode { get; set; }
-        public string AdressLine { get; set; }
-        public bool? IsPrimary { get; set; }
+        public int PostaCode { get; set; }
+        public string AddresLine { get; set; }
+        public string IsPrimary { get; set; }
         public string Country { get; set; }
 
         public virtual ICollection<Manufacturer> Manufacturer { get; set; }

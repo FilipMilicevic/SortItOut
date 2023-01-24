@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj": {}
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj": {}
   },
   "projects": {
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj",
         "projectName": "SortItOut.API",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\SortItOut.API.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj"
               },
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj"
               }
             }
           }
@@ -79,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj",
         "projectName": "SortItOut.Core",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\SortItOut.Core.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,11 +107,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
               },
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
               }
             }
           }
@@ -151,21 +151,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
         "projectName": "SortItOut.DataAccess.Csc",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\SortItOut.DataAccess.Csc.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess.Csc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -179,8 +179,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj"
               }
             }
           }
@@ -224,21 +224,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
         "projectName": "SortItOut.DataAccess",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\SortItOut.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,8 +252,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
-                "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
+              "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+                "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj"
               }
             }
           }
@@ -283,21 +283,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
         "projectName": "SortItOut.Models",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -338,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

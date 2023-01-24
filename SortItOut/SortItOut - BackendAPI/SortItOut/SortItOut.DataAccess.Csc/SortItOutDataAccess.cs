@@ -23,6 +23,36 @@ namespace SortItOut.DataAccess.Csc
             return new ValueResult{ IsSuccess = true, Description = "tekst"};
         }
 
-        
+        public async Task<bool> AuthenticateMe(string name, string surname, string password)
+        {
+            return await _cscDb.Account.AnyAsync( g => g.PasswordHash == password && g.Name == name && g.Surname == surname)
+                ;
+        }
+
+        public async Task<bool> AddNewUser(string surname, string name , string password, byte AccountTypeId)
+        {
+            var user = new Account()
+            {
+                Surname = surname,
+                Name = name,
+                PasswordHash = password,
+                AccountTypeId = AccountTypeId
+            };
+
+
+            try
+            {
+                _cscDb.Account.Add(user);
+                await _cscDb.SaveChangesAsync();
+
+
+                return true;
+            }
+            catch (Exception)
+            { 
+                throw;
+            }
+            
+        }
     }
 }

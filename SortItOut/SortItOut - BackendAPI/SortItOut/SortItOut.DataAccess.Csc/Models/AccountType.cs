@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace SortItOut.DataAccess.Csc.Models
 {
-    public partial class AccountTypes
+    public partial class AccountType
     {
-        public AccountTypes()
+        public AccountType()
         {
             Account = new HashSet<Account>();
         }

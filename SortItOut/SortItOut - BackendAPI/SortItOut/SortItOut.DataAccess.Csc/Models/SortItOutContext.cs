@@ -13,13 +13,13 @@ namespace SortItOut.DataAccess.Csc.Models
         {
         }
 
-        public SortItOutContext(Microsoft.EntityFrameworkCore.DbContextOptions<SortItOutContext> options)
+        public SortItOutContext(DbContextOptions<SortItOutContext> options)
             : base(options)
         {
         }
 
         public virtual DbSet<Account> Account { get; set; }
-        public virtual DbSet<AccountTypes> AccountTypes { get; set; }
+        public virtual DbSet<AccountType> AccountType { get; set; }
         public virtual DbSet<Address> Address { get; set; }
         public virtual DbSet<Manufacturer> Manufacturer { get; set; }
         public virtual DbSet<Product> Product { get; set; }
@@ -28,67 +28,72 @@ namespace SortItOut.DataAccess.Csc.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.UseCollation("Croatian_CI_AS");
+
             modelBuilder.Entity<Account>(entity =>
             {
-                entity.Property(e => e.AccountId).ValueGeneratedNever();
+                entity.HasKey(e => e.AccountId)
+                    .HasName("PK_AccountId")
+                    .IsClustered(false);
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
-                    .HasMaxLength(10)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.PasswordHash)
-                    .IsRequired()
-                    .HasMaxLength(20)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Surname)
-                    .IsRequired()
-                    .HasMaxLength(15)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.AccountType)
                     .WithMany(p => p.Account)
                     .HasForeignKey(d => d.AccountTypeId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Account_AccountTypes");
+                    .HasConstraintName("FK__Account__Account__4E53A1AA");
             });
 
-            modelBuilder.Entity<AccountTypes>(entity =>
+            modelBuilder.Entity<AccountType>(entity =>
             {
                 entity.HasKey(e => e.AccountTypeId)
-                    .HasName("PK__AccountT__8F9585AF71EC598F");
-
-                entity.Property(e => e.AccountTypeId).ValueGeneratedNever();
+                    .HasName("PK_AccountTypeId")
+                    .IsClustered(false);
 
                 entity.Property(e => e.Description)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.ShortDescription)
-                    .HasMaxLength(30)
+                    .HasMaxLength(20)
                     .IsUnicode(false);
             });
 
             modelBuilder.Entity<Address>(entity =>
             {
-                entity.Property(e => e.AddressId).ValueGeneratedNever();
+                entity.HasKey(e => e.AddressId)
+                    .HasName("PK_AddressId")
+                    .IsClustered(false);
 
-                entity.Property(e => e.AdressLine)
+                entity.Property(e => e.AddresLine)
                     .IsRequired()
-                    .HasMaxLength(1)
+                    .HasMaxLength(30)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Country)
-                    .HasMaxLength(1)
+                    .IsRequired()
+                    .HasMaxLength(50)
                     .IsUnicode(false);
+
+                entity.Property(e => e.IsPrimary)
+                    .IsRequired()
+                    .HasMaxLength(20)
+                    .IsUnicode(false)
+                    .IsFixedLength();
             });
 
             modelBuilder.Entity<Manufacturer>(entity =>
             {
-                entity.Property(e => e.ManufacturerId).ValueGeneratedNever();
-
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
                     .IsUnicode(false);
@@ -96,37 +101,35 @@ namespace SortItOut.DataAccess.Csc.Models
                 entity.HasOne(d => d.Address)
                     .WithMany(p => p.Manufacturer)
                     .HasForeignKey(d => d.AddressId)
-                    .HasConstraintName("FK_Manufacturer_Address");
+                    .HasConstraintName("FK__Manufactu__Addre__43D61337");
             });
 
             modelBuilder.Entity<Product>(entity =>
             {
-                entity.HasIndex(e => e.BarCode, "UQ__Product__8A2ACA9B74A2F500")
-                    .IsUnique();
-
-                entity.Property(e => e.ProductId).ValueGeneratedNever();
+                entity.HasKey(e => e.ProductId)
+                    .IsClustered(false);
 
                 entity.Property(e => e.Description)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Detail)
-                    .HasMaxLength(40)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.MeasueringUnit)
-                    .HasMaxLength(5)
-                    .IsUnicode(false);
+                entity.Property(e => e.Measuringunit)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .IsFixedLength();
 
                 entity.Property(e => e.Name)
-                    .HasMaxLength(30)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Manufacturer)
                     .WithMany(p => p.Product)
                     .HasForeignKey(d => d.ManufacturerId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Product_Manufacturer");
+                    .HasConstraintName("FK__Product__Manufac__51300E55");
             });
 
             modelBuilder.Entity<StateOfProduct>(entity =>
@@ -134,44 +137,45 @@ namespace SortItOut.DataAccess.Csc.Models
                 entity.HasNoKey();
 
                 entity.Property(e => e.Detail)
-                    .HasMaxLength(40)
+                    .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.LastUpdate).HasColumnType("smalldatetime");
+                entity.Property(e => e.LastUpdate)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .IsFixedLength();
 
                 entity.Property(e => e.LastUpdateBy)
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .IsFixedLength();
 
                 entity.HasOne(d => d.Product)
                     .WithMany()
                     .HasForeignKey(d => d.ProductId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_StateOfProduct_Product");
+                    .HasConstraintName("FK__StateOfPr__Produ__540C7B00");
 
                 entity.HasOne(d => d.Storage)
                     .WithMany()
                     .HasForeignKey(d => d.StorageId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_StateOfProduct_Storage");
+                    .HasConstraintName("FK__StateOfPr__Stora__531856C7");
             });
 
             modelBuilder.Entity<Storage>(entity =>
             {
-                entity.Property(e => e.StorageId).ValueGeneratedNever();
+                entity.HasKey(e => e.StorageId)
+                    .HasName("PK_StorageId")
+                    .IsClustered(false);
 
                 entity.Property(e => e.Name)
-                    .HasMaxLength(30)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Address)
                     .WithMany(p => p.Storage)
                     .HasForeignKey(d => d.AddressId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Storage_Address");
+                    .HasConstraintName("FK__Storage__Address__46B27FE2");
             });
-
-            modelBuilder.HasSequence<int>("SalesOrderNumber", "SalesLT");
 
             OnModelCreatingPartial(modelBuilder);
         }

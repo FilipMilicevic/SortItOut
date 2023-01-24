@@ -9,7 +9,7 @@ namespace SortItOut.DataAccess.Csc.Models
     {
         public int StorageId { get; set; }
         public string Name { get; set; }
-        public int AddressId { get; set; }
+        public int? AddressId { get; set; }
 
         public virtual Address Address { get; set; }
     }

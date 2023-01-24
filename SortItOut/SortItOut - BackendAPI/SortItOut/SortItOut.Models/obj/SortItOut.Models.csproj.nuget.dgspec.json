@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {}
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {}
   },
   "projects": {
-    "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
+    "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "projectUniqueName": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
         "projectName": "SortItOut.Models",
-        "projectPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
-        "packagesPath": "C:\\Users\\fmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
+        "projectPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

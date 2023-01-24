@@ -20,6 +20,20 @@ public class ProductController : ControllerBase
         _service = service;
     }
 
+    [HttpPost]
+    [Route("[action]")]
+    public async Task<bool> Authenticate([FromQuery]string username, [FromQuery]string password)
+    { 
+        return await _service.AuthenticateMe(username, password);
+    }
+
+    [HttpPost]
+    [Route("[action]")]
+    public async Task<bool> AddUser(string username, string password, byte AccountTypeId)
+    {
+        return await _service.AddUser(username, password, AccountTypeId);
+    }
+
     [HttpGet]
     [Route("[action]")]
     public async Task<ValueResult> TrueValue(bool value)

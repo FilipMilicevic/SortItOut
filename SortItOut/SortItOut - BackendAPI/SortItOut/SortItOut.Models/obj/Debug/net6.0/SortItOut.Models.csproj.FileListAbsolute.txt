@@ -22,3 +22,15 @@ C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj
 C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\refint\SortItOut.Models.dll
 C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.pdb
 C:\src\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\ref\SortItOut.Models.dll
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.deps.json
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.dll
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\bin\Debug\net6.0\SortItOut.Models.pdb
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.csproj.AssemblyReference.cache
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.AssemblyInfoInputs.cache
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.AssemblyInfo.cs
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.csproj.CoreCompileInputs.cache
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.dll
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\refint\SortItOut.Models.dll
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\SortItOut.Models.pdb
+C:\Source\GitHub\SortItOut\SortItOut\SortItOut - BackendAPI\SortItOut\SortItOut.Models\obj\Debug\net6.0\ref\SortItOut.Models.dll

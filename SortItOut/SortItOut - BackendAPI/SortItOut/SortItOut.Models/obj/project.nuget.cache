@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "COB4bjv38YCBGqmjvz/mZVxZPOKmFn/PZTeMeXJn7jy7z8KZ4+7YPQYyBF3QmL2nmeqnPmBbStP4ThwfXBSOTg==",
+  "dgSpecHash": "JhWZyxUMi2UvhHpdWMghuzXd4WW5OcHL0N7rmNznbbQ90EW8ABd+ANkl7Sbv35xMhEZWxl6hyAPBHtRNFAQl9g==",
   "success": true,
-  "projectFilePath": "C:\\src\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
+  "projectFilePath": "C:\\Source\\GitHub\\SortItOut\\SortItOut\\SortItOut - BackendAPI\\SortItOut\\SortItOut.Models\\SortItOut.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

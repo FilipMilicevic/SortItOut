@@ -7,12 +7,12 @@ namespace SortItOut.DataAccess.Csc.Models
 {
     public partial class StateOfProduct
     {
-        public int StorageId { get; set; }
-        public int ProductId { get; set; }
-        public int Amount { get; set; }
-        public DateTime LastUpdate { get; set; }
+        public int? Amount { get; set; }
+        public string LastUpdate { get; set; }
         public string LastUpdateBy { get; set; }
         public string Detail { get; set; }
+        public int? StorageId { get; set; }
+        public int? ProductId { get; set; }
 
         public virtual Product Product { get; set; }
         public virtual Storage Storage { get; set; }

@@ -35,5 +35,17 @@ namespace SortItOut.Core.Service
                 return result;
             }
         }
+
+        public async Task<bool> AuthenticateMe(string username, string password)
+        {
+            var names = username.Split(' ');
+            return await _dataAccess.AuthenticateMe(names[0], names[1], password);
+        }
+
+        public async Task<bool> AddUser(string username, string password, byte accountTypeId)
+        {
+            var names = username.Split(' ');
+            return await _dataAccess.AddNewUser(names[1], names[0], password, accountTypeId);
+        }
     }
 }

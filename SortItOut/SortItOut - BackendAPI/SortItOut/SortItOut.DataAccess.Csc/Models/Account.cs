@@ -8,11 +8,11 @@ namespace SortItOut.DataAccess.Csc.Models
     public partial class Account
     {
         public int AccountId { get; set; }
-        public int AccountTypeId { get; set; }
         public string Surname { get; set; }
         public string Name { get; set; }
         public string PasswordHash { get; set; }
+        public int? AccountTypeId { get; set; }
 
-        public virtual AccountTypes AccountType { get; set; }
+        public virtual AccountType AccountType { get; set; }
     }
 }

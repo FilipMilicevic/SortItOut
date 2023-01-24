@@ -9,11 +9,11 @@ namespace SortItOut.DataAccess.Csc.Models
     {
         public int ProductId { get; set; }
         public int? BarCode { get; set; }
-        public int ManufacturerId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string Detail { get; set; }
-        public string MeasueringUnit { get; set; }
+        public string Measuringunit { get; set; }
+        public int? ManufacturerId { get; set; }
 
         public virtual Manufacturer Manufacturer { get; set; }
     }

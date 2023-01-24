@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Identity.Web;
 using SortItOut.Core.Interface;
 using SortItOut.Core.Service;
-using SortItOut.Core.Service.Auth;
 using SortItOut.DataAccess;
 using SortItOut.DataAccess.Csc;
 
@@ -35,21 +34,6 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-
-app.UseCors();
-app.UseAuthentication();
-
-app.MapGet("/secure", [EnableCors("allowAny")] (HttpContext context) =>
-{
-    AuthHelper.UserHasAnyAcceptedScopes(context, new string[] { "access_as_user" });
-    return "hello from secure";
-}).RequireAuthorization();
-
-
-app.MapGet("/insecure", [EnableCors("allowAny")] () =>
-{
-    return "hello from insecure";
-});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
